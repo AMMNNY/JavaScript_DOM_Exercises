@@ -1,0 +1,51 @@
+    body {
+        font-family: Arial;
+        padding: 30px;
+    }
+
+    section {
+        margin-bottom: 50px;
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+
+    input {
+        display: block;
+        margin: 8px 0;
+        padding: 8px;
+    }
+
+    button {
+        margin: 5px;
+        padding: 8px 15px;
+        cursor: pointer;
+    }
+
+    .error {
+        color: red;
+        font-size: 14px;
+    }
+
+    #text-editor {
+        background-color: cyan;
+        color: darkred;
+        font-size: 47px;
+        font-family: Georgia;
+        padding: 20px;
+        margin-bottom: 20px;
+        min-height: 60px;
+    }
+
+    #paragraph-result p {
+        margin: 5px 0;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px 15px;
+    }

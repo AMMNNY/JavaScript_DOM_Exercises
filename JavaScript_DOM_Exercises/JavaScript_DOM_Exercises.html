@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./JavaScript_DOM_Exercises.css" > 
+</head>
+<body>
+    <section>
+    <h2>Bookstore</h2>
+
+    <form id="book-form">
+        <label>Username</label>
+        <input type="text" id="username">
+
+        <label>Membership Type</label>
+        <select id="membership">
+            <option value="">Select</option>
+            <option value="student">Student</option>
+            <option value="regular">Regular</option>
+        </select>
+
+        <label>Book Genre</label>
+        <input type="text" id="genre">
+
+        <label>Book Title</label>
+        <input type="text" id="book-title">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="result-card"></div>
+</section>
+
+
+<section>
+    <h2>Registration</h2>
+
+    <form id="register-form">
+
+        <label>Username</label>
+        <input type="text" id="reg-username">
+        <span class="error" id="username-error"></span>
+
+        <label>Password</label>
+        <input type="password" id="password">
+        <span class="error" id="password-error"></span>
+
+        <label>Confirm Password</label>
+        <input type="password" id="confirm-password">
+        <span class="error" id="confirm-error"></span>
+
+        <br>
+
+        <button type="submit" id="register-button" disabled>Register</button>
+
+        <p id="register-message"></p>
+    </form>
+</section>
+
+
+<section>
+    <h2 id="paragraph-heading">Paragraph</h2>
+
+    <p id="paragraph">
+        JavaScript is a programming language used to create interactive websites.
+        It allows developers to change HTML elements and respond to user actions.
+        JavaScript can also work with the DOM to update content dynamically.
+    </p>
+
+    <div id="paragraph-result"></div>
+</section>
+
+
+<section>
+    <h2>Text Editor</h2>
+
+    <div id="text-editor">HELLO</div>
+
+    <button id="bold">Bold</button>
+    <button id="italic">Italic</button>
+
+    <br>
+
+    <button id="left">Left</button>
+    <button id="center">Center</button>
+    <button id="right">Right</button>
+
+    <br>
+
+    <button id="upper">Upper Case</button>
+    <button id="lower">Lower Case</button>
+    <button id="capitalize">Capitalize</button>
+    <button id="clear">Clear Text</button>
+
+    <br><br>
+
+    <label>Text Color</label>
+    <input type="color" id="text-color">
+
+    <label>Background Color</label>
+    <input type="color" id="background-color">
+
+    <label>Font Size</label>
+    <input type="number" id="font-size" value="47">
+
+    <label>Font Family</label>
+    <select id="font-family">
+        <option value="Georgia">Georgia</option>
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+</section>
+    <script src="./JavaScript_DOM_Exercises.js" ></script>
+</body>
+</html>
